@@ -1,0 +1,48 @@
+body{
+    background-color: beige;
+}
+#main {
+    text-align: center;
+    font-size: 2em;
+}
+
+#heading {
+    margin: 0px;
+}
+
+#button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* text-align: center; */
+}
+
+#galary img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #f8f8f8;
+    object-fit: cover;
+}
+#galary img:hover {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid #f8f8f8;
+}
+
+#loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
